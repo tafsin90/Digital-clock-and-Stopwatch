@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5c3;
+}
+
+
+ 
+.clock {
+    height: 200px;
+    width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 15px;
+
+    font-size: 45px;
+    font-weight: bold;
+
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+
+    background-color: white;
+    
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.27);
+
+}
+
+.date {
+    font-size: 18px;
+    color: #666;
+    font-weight: 20px;
+}
+
+
+
+
+
+.stopwatch{
+    margin-top: 30px;
+    height: 200px;
+    width: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    font-size: 45px;
+    font-weight: bold;
+
+
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+
+    background-color: white;
+    
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.27);
+} 
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px
+
+    
+}
+
+.start-btn{
+    height: 35px;
+    width: 70px;
+
+    background-color: rgb(28, 187, 28);
+    border: none;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+.start-btn:hover{
+    cursor: pointer;
+}
+
+
+.stop-btn{
+    height: 35px;
+    width: 70px;
+
+    background-color: rgb(245, 35, 35);
+    border: none;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+.stop-btn:hover{
+    cursor: pointer;
+}
+
+
+.reset-btn{
+    height: 35px;
+    width: 70px;
+
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+.reset-btn:hover{
+    cursor: pointer;
+}
+
+.formated-time{
+    width: 200px;
+}
