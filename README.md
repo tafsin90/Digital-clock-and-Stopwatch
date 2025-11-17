@@ -23,6 +23,10 @@ npm install
 ```bash
 npm run dev
 ```
+### 3. Set up the .env file
+```bash
+npm run dev
+```
 ### Open in your browser and go to the URL shown in the terminal
 - Usually:
 ```bash
